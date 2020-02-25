@@ -20,8 +20,16 @@ Then, specify and maintain the desired release version on the `./package.json` f
 {
   "nativescript": {
     "id": "org.nativescript.MySampleApp",
-    "version": "1.2.3",
-    "versionNumber": "1"
+    "buildVersion": {
+      "ios": {
+        "version": "1.2.3",
+        "versionNumber": "1"
+      },
+      "android": {
+        "version": "1.2.3",
+        "versionNumber": "1"
+      },
+    },
     ...
   },
   ...
@@ -32,8 +40,16 @@ or:
 
 ```json
 {
-  "version": "1.2.3",
-  "versionNumber": "1"
+  "buildVersion": {
+    "ios": {
+      "version": "1.2.3",
+      "versionNumber": "1"
+    },
+    "android": {
+      "version": "1.2.3",
+      "versionNumber": "1"
+    }
+  },
   ...
 }
 ```

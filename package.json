@@ -1,6 +1,6 @@
 {
   "name": "nativescript-dev-version",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "description": "Installs nativescript hooks to maintain native app version (AndroidManifest.xml and Info.plist)'",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "preuninstall": "node preuninstall.js",
     "test": "exit 0"
   },
-  "author": "Javier Castro",
-  "license": "ISC",
+  "author": "Originally Javier Castro, modifed by Charles Mitchell",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
   "nativescript": {
     "hooks": [
       {
