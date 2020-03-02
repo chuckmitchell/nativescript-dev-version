@@ -47,7 +47,7 @@ or:
     },
     "android": {
       "version": "1.2.3",
-      "versionNumber": "1"
+      "versionNumber": "10203001"
     }
   },
   ...
